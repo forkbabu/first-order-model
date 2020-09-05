@@ -1,14 +1,10 @@
 import imageio
 import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.animation as animation
 from skimage.transform import resize
-from IPython.display import HTML
 import warnings
 warnings.filterwarnings("ignore")
 
 source_image = imageio.imread('Adolf-Hitler-1933.jpg')
-#driving_video = imageio.mimread('shwetabh.mp4',memtest=False)
 driving_video = imageio.mimread('jadoo.mp4',memtest=False)
 
 
